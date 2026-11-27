@@ -1,0 +1,17 @@
+[project]
+name = "siq-proyecto"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Alfonso Ortega", email = "al427544@uji.es" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+siq-proyecto = "siq_proyecto:main"
+
+[build-system]
+requires = ["uv_build>=0.13.9,<0.14.0"]
+build-backend = "uv_build"
